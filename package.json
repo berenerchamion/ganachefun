@@ -1,0 +1,22 @@
+{
+  "name": "ganachefun",
+  "version": "1.0.0",
+  "description": "Exploring ganache - web3 connectivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berenerchamion/ganachefun.git"
+  },
+  "author": "Beren Erchamion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berenerchamion/ganachefun/issues"
+  },
+  "homepage": "https://github.com/berenerchamion/ganachefun#readme",
+  "dependencies": {
+    "web3": "^1.7.5"
+  }
+}

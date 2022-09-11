@@ -9,15 +9,15 @@ const receivingAddress = '0x9aa1e39998DF63A84052D9ed88Fea6362c4Da143'
 var web3 = new Web3(url)
 
 var rawTransaction = {
-  nonce: web3.utils.toHex(1),
+  nonce: web3.utils.toHex(3),
   to: receivingAddress,
-  gasPrice: web3.utils.toHex(20000000),
+  gasPrice: web3.utils.toHex(30000000),
   gasLimit: web3.utils.toHex(30000),
   value: web3.utils.toHex(100),
   data: web3.utils.toHex('')
 }
 
-const privateKeySender = 'put a private key here'
+const privateKeySender = '856d8fa620918a8c97ad9bc27a4ea0c47d7826aea8259449ac03e41ca60bf84b'
 const privateKeySenderHex = Buffer.from(privateKeySender, 'hex')
 var transaction = new EthereumTransaction(rawTransaction)
 transaction.sign(privateKeySenderHex)
